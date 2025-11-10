@@ -421,8 +421,8 @@ Use backslash \\ to escape special characters.
 
 ## Conclusion
 
-The **Gruvbox Crisp** theme provides excellent highlighting for all Markdown elements, making your documents both *beautiful* and ***highly readable***.
+The **CoMPhy Gruvbox** theme provides excellent highlighting for all Markdown elements, making your documents both *beautiful* and ***highly readable***.
 
-For more information, visit the [Gruvbox Crisp repository](https://github.com/VatsalSy/zed-gruvbox_custom_themes).
+For more information, visit the [CoMPhy Gruvbox repository](https://github.com/VatsalSy/comphy_vscode_themes).
 
 Happy writing! :pencil:

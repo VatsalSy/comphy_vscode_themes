@@ -1,6 +1,6 @@
 # Color Palette Reference
 
-This document centralizes the color palettes used across the Gruvbox Crisp theme variants to avoid duplication and keep maintenance simple.
+This document centralizes the color palettes used across the CoMPhy Gruvbox theme variants to avoid duplication and keep maintenance simple.
 
 ## Traditional Gruvbox Colors
 

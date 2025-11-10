@@ -9,11 +9,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Debug theme: F5 in VSCode to launch Extension Development Host
 
 ## Architecture Overview
-This is a VSCode theme extension that provides four Gruvbox-based color themes:
-1. **Gruvbox Crisp (High Contrast, with TeX)** - Hard dark background (#1d2021)
-2. **Gruvbox Crisp (Medium, with TeX)** - Medium dark background (#282828)
-3. **Gruvbox Crisp (Soft, with TeX)** - Soft dark background (#32302f)
-4. **Gruvbox Crisp Anysphere Blend** - Cursor Dark Anysphere-inspired colors with Gruvbox token organization
+This is a VSCode theme extension that provides six CoMPhy Gruvbox-based color themes:
+1. **CoMPhy Gruvbox (High Contrast, with TeX)** - Hard dark background (#1d2021)
+2. **CoMPhy Gruvbox (Medium, with TeX)** - Medium dark background (#282828)
+3. **CoMPhy Gruvbox (Soft, with TeX)** - Soft dark background (#32302f)
+4. **CoMPhy Gruvbox Anysphere Blend** - Cursor Dark Anysphere-inspired colors with Gruvbox token organization
+5. **CoMPhy Gruvbox Anysphere (High Contrast)** - Darker Anysphere variant with enhanced contrast
+6. **CoMPhy Gruvbox Anysphere (Highest Contrast, pop)** - Pure black variant for maximum visual impact
 
 ## Theme File Structure
 Theme JSON files in `themes/` directory follow this organization:
@@ -26,7 +28,7 @@ Theme JSON files in `themes/` directory follow this organization:
 ## Development Guidelines
 - JSON formatting: 2-space indentation
 - Use descriptive comments to delineate sections in theme files
-- Theme naming convention: "Gruvbox Crisp ([Contrast Level], [Special Feature])"
+- Theme naming convention: "CoMPhy Gruvbox ([Contrast Level], [Special Feature])"
 - Color declarations should reference Gruvbox palette names in comments
 - When adding new theme variants, maintain consistent token coloring patterns across all themes
 - Test theme modifications across multiple languages, especially LaTeX support

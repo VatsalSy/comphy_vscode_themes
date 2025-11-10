@@ -1,6 +1,6 @@
 # Theme Build System
 
-This directory contains the base configuration files used to generate the Gruvbox Crisp theme variants, eliminating duplication and ensuring consistency.
+This directory contains the base configuration files used to generate the CoMPhy Gruvbox theme variants, eliminating duplication and ensuring consistency.
 
 ## Structure
 

@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Gruvbox Crisp (Soft, with TeX)",
+  "name": "CoMPhy Gruvbox (Soft, with TeX)",
   "type": "dark",
   "tokenColors": [
     {

@@ -1,6 +1,6 @@
 {
   "gruvbox-crisp-soft": {
-    "name": "Gruvbox Crisp (Soft, with TeX)",
+    "name": "CoMPhy Gruvbox (Soft, with TeX)",
     "type": "dark",
     "background": "#32302f",
     "backgroundTransparent": "#32302f00",
@@ -15,7 +15,7 @@
     }
   },
   "gruvbox-crisp-medium": {
-    "name": "Gruvbox Crisp (Medium, with TeX)",
+    "name": "CoMPhy Gruvbox (Medium, with TeX)",
     "type": "dark",
     "background": "#282828",
     "backgroundTransparent": "#28282800",
@@ -30,7 +30,7 @@
     }
   },
   "gruvbox-crisp-high-contrast": {
-    "name": "Gruvbox Crisp (High Contrast, with TeX)",
+    "name": "CoMPhy Gruvbox (High Contrast, with TeX)",
     "type": "dark",
     "background": "#1d2021",
     "backgroundTransparent": "#1d202100",
@@ -46,7 +46,7 @@
     }
   },
   "gruvbox-crisp-anysphere": {
-    "name": "Gruvbox Crisp Anysphere Blend",
+    "name": "CoMPhy Gruvbox Anysphere Blend",
     "type": "dark",
     "background": "#1a1a1a",
     "backgroundTransparent": "#1a1a1a00",
@@ -84,7 +84,7 @@
     }
   },
   "gruvbox-crisp-anysphere-high-contrast": {
-    "name": "Gruvbox Crisp Anysphere (High Contrast)",
+    "name": "CoMPhy Gruvbox Anysphere (High Contrast)",
     "type": "dark",
     "background": "#141414",
     "backgroundTransparent": "#14141400",
@@ -125,7 +125,7 @@
   }
   ,
   "gruvbox-crisp-anysphere-contrast-pop": {
-    "name": "Gruvbox Crisp Anysphere (Highest Contrast, pop)",
+    "name": "CoMPhy Gruvbox Anysphere (Highest Contrast, pop)",
     "type": "dark",
     "background": "#000000",
     "backgroundTransparent": "#00000000",

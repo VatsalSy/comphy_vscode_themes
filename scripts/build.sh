@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Gruvbox Crisp Theme Extension Build Script
+# CoMPhy Gruvbox Theme Extension Build Script
 # This script builds the theme extension and packages it for distribution
 
 set -e  # Exit on error
@@ -30,7 +30,7 @@ if [ ! -f "package.json" ]; then
     exit 1
 fi
 
-info "Starting Gruvbox Crisp Theme build process..."
+info "Starting CoMPhy Gruvbox Theme build process..."
 
 # Step 1: Check dependencies
 info "Checking Node.js installation..."

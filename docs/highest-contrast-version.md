@@ -1,4 +1,4 @@
-# Gruvbox Crisp Anysphere (Highest Contrast, pop) Theme
+# CoMPhy Gruvbox Anysphere (Highest Contrast, pop) Theme
 
 ## Overview
 
@@ -149,4 +149,4 @@ This theme variant is generated from base configurations with the following spec
 
 ## Installation Note
 
-This theme is included in the Gruvbox Crisp Color Theme Collection. After installation, select "Gruvbox Crisp Anysphere (Highest Contrast, pop)" from the color theme picker in VS Code or Cursor.
+This theme is included in the CoMPhy Gruvbox Color Theme Collection. After installation, select "CoMPhy Gruvbox Anysphere (Highest Contrast, pop)" from the color theme picker in VS Code or Cursor.

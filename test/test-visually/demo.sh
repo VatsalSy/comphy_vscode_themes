@@ -181,7 +181,7 @@ install_theme() {
     mkdir -p "${theme_dir}"
     
     # Download theme files
-    local repo_url="https://github.com/VatsalSy/zed-gruvbox_custom_themes"
+    local repo_url="https://github.com/VatsalSy/comphy_vscode_themes"
     if command -v git >/dev/null 2>&1; then
         git clone --depth 1 "${repo_url}" "${theme_dir}" || die "Failed to clone repository"
     else

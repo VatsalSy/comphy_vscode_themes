@@ -1,9 +1,32 @@
 # Changelog
 
-All notable changes to the Gruvbox Crisp Color Theme Collection will be documented in this file.
+All notable changes to the CoMPhy Gruvbox Color Theme Collection will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [2.0.0] - 2025-01-09
+
+### Changed
+
+- **BREAKING**: Extension renamed from `gruvbox_custom_themes` to `comphy_vscode_themes`
+- **BREAKING**: All theme display names updated from "Gruvbox Crisp" to "CoMPhy Gruvbox"
+  - "Gruvbox Crisp (High Contrast, with TeX)" → "CoMPhy Gruvbox (High Contrast, with TeX)"
+  - "Gruvbox Crisp (Medium, with TeX)" → "CoMPhy Gruvbox (Medium, with TeX)"
+  - "Gruvbox Crisp (Soft, with TeX)" → "CoMPhy Gruvbox (Soft, with TeX)"
+  - "Gruvbox Crisp Anysphere Blend" → "CoMPhy Gruvbox Anysphere Blend"
+  - "Gruvbox Crisp Anysphere (High Contrast)" → "CoMPhy Gruvbox Anysphere (High Contrast)"
+  - "Gruvbox Crisp Anysphere (Highest Contrast, pop)" → "CoMPhy Gruvbox Anysphere (Highest Contrast, pop)"
+- Repository moved to: https://github.com/VatsalSy/comphy_vscode_themes
+- Extension description updated to emphasize computational physics workflow optimization
+- Added "comphy" and "computational physics" to extension keywords
+
+### Migration Notes
+
+- **Existing users**: You will need to reselect your theme in VSCode settings after updating
+- Theme functionality and colors remain unchanged - only names have been updated
+- All color schemes and syntax highlighting remain identical to previous versions
+- No changes to theme files, color palettes, or visual appearance
 
 ## [1.3.0] - 2025-09-05
 

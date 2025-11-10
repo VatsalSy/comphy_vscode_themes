@@ -1,9 +1,9 @@
-# Gruvbox Crisp Color Theme Collection
+# CoMPhy Gruvbox Color Theme Collection
 
-[![Version](https://img.shields.io/github/v/release/VatsalSy/gruvbox_custom_themes)](https://github.com/VatsalSy/gruvbox_custom_themes/releases)
-[![License](https://img.shields.io/github/license/VatsalSy/gruvbox_custom_themes)](LICENSE)
-[![Download VSIX](https://img.shields.io/github/v/release/VatsalSy/gruvbox_custom_themes?label=download%20VSIX&color=blue)](https://github.com/VatsalSy/gruvbox_custom_themes/releases/latest)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/VatsalSy/gruvbox_custom_themes/publish.yml?label=publish)](https://github.com/VatsalSy/gruvbox_custom_themes/actions)<br>
+[![Version](https://img.shields.io/github/v/release/VatsalSy/comphy_vscode_themes)](https://github.com/VatsalSy/comphy_vscode_themes/releases)
+[![License](https://img.shields.io/github/license/VatsalSy/comphy_vscode_themes)](LICENSE)
+[![Download VSIX](https://img.shields.io/github/v/release/VatsalSy/comphy_vscode_themes?label=download%20VSIX&color=blue)](https://github.com/VatsalSy/comphy_vscode_themes/releases/latest)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/VatsalSy/comphy_vscode_themes/publish.yml?label=publish)](https://github.com/VatsalSy/comphy_vscode_themes/actions)<br>
 [![VS Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/vatsalsy.gruvbox-crisp-tex?label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=vatsalsy.gruvbox-crisp-tex)
 [![VS Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/vatsalsy.gruvbox-crisp-tex?label=rating)](https://marketplace.visualstudio.com/items?itemName=vatsalsy.gruvbox-crisp-tex)<br>
 [![Open VSX Downloads](https://img.shields.io/open-vsx/dt/vatsalsy/gruvbox-crisp-tex?label=Open%20VSX)](https://open-vsx.org/extension/vatsalsy/gruvbox-crisp-tex)<br>
@@ -38,12 +38,12 @@ This theme collection is based on the excellent [Gruvbox Theme by jdinhify](http
 
 1. Open VSCode
 2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
-3. Search for "Gruvbox Crisp"
+3. Search for "CoMPhy Gruvbox"
 4. Click Install
 
 ### From GitHub
 
-1. Clone the repository: `git clone https://github.com/VatsalSy/gruvbox_custom_themes.git`
+1. Clone the repository: `git clone https://github.com/VatsalSy/comphy_vscode_themes.git`
 2. Open VSCode
 3. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
 4. Click "Install from VSIX..."
@@ -61,8 +61,8 @@ This theme collection is based on the excellent [Gruvbox Theme by jdinhify](http
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/VatsalSy/gruvbox_custom_themes.git
-   cd gruvbox_custom_themes
+   git clone https://github.com/VatsalSy/comphy_vscode_themes.git
+   cd comphy_vscode_themes
    ```
 
 2. Run the build script:
@@ -120,14 +120,14 @@ This collection includes six variants of the Gruvbox Dark theme:
 2. **Medium** - Uses a balanced background (#282828) for comfortable viewing
 3. **Soft** - Uses a softer background (#32302f) for reduced eye strain
 4. **Anysphere Blend** - A fusion of Gruvbox structure with Cursor Dark Anysphere colors
-5. **Gruvbox Crisp Anysphere (High Contrast)** - Darker Anysphere variant with enhanced contrast
-6. **Gruvbox Crisp Anysphere (Highest Contrast, pop)** - Pure black variant for maximum visual impact
+5. **CoMPhy Gruvbox Anysphere (High Contrast)** - Darker Anysphere variant with enhanced contrast
+6. **CoMPhy Gruvbox Anysphere (Highest Contrast, pop)** - Pure black variant for maximum visual impact
 
 All variants maintain the same high-quality syntax highlighting and specialized language support, differing in their background intensity and color schemes.
 
-## Gruvbox Crisp Anysphere Blend
+## CoMPhy Gruvbox Anysphere Blend
 
-The newest addition to the collection, **Gruvbox Crisp Anysphere Blend**, combines the structured token highlighting of Gruvbox with the modern color palette of Cursor Dark Anysphere:
+The newest addition to the collection, **CoMPhy Gruvbox Anysphere Blend**, combines the structured token highlighting of Gruvbox with the modern color palette of Cursor Dark Anysphere:
 
 - **Modern UI**: Adopts Cursor's darker gray backgrounds (#1a1a1a for editor, #141414 for sidebars) with cleaner borders and highlights
 - **Refined Color Palette**: Uses Cursor's vibrant yet balanced colors:
@@ -142,7 +142,7 @@ The newest addition to the collection, **Gruvbox Crisp Anysphere Blend**, combin
 
 This variant provides a perfect blend for users who appreciate Gruvbox's token organization but prefer a more modern aesthetic inspired by Cursor's design language. The custom purple (#A35DB0) is one of the most distinctive features, used for constants, prototype objects, and other special language elements.
 
-## Gruvbox Crisp Anysphere (Highest Contrast, pop)
+## CoMPhy Gruvbox Anysphere (Highest Contrast, pop)
 
 Note: this variant intentionally diverges from the classic Gruvbox palette — see the full variant docs at docs/highest-contrast-version.md.
 
@@ -197,10 +197,10 @@ To customize the theme, you can override settings in your `settings.json`:
 ```json
 {
   "workbench.colorCustomizations": {
-    "[Gruvbox Crisp (High Contrast, with TeX)]": {
+    "[CoMPhy Gruvbox (High Contrast, with TeX)]": {
       // Add your customizations here
     },
-    "[Gruvbox Crisp Anysphere Blend]": {
+    "[CoMPhy Gruvbox Anysphere Blend]": {
       // Add your customizations here
     }
   }
