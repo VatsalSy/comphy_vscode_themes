@@ -1,9 +1,9 @@
 name: Publish Extension
 
 on:
-  push:
-    tags:
-      - 'v*.*.*'  # Triggers on version tags, e.g., v1.2.3
+  # Publishing is driven by the GitHub release; a bare tag push no longer
+  # triggers, so a tag-then-release flow cannot race itself into a
+  # version-exists failure on the marketplaces.
   workflow_dispatch:
     inputs:
       dry_run:
@@ -12,6 +12,11 @@ on:
         default: false
   release:
     types: [published]
+
+# One publish at a time; a re-fired event queues instead of racing.
+concurrency:
+  group: publish-extension
+  cancel-in-progress: false
 
 jobs:
   check-version:
