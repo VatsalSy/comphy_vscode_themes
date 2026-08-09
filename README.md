@@ -28,6 +28,15 @@ Pure black (`#000000`) background with a vibrant Dracula-inspired syntax palette
 - Purple/cyan type system, muted blue-gray comments
 - Subtle line highlighting visible on pure black
 
+### CoMPhy Gruvbox Plum
+
+Near-black (`#111111`) background with the CoMPhy brand purple `#68236D` as the UI accent — selection, focus ring, active tab, buttons and badges all resolve to the lab's `--c-brand-purple`. Syntax leans further into the Dracula palette:
+
+- Bright `#FCFCFC` foreground on `#111111`, side surfaces at `#161616`
+- Pale yellow keywords, bright green strings, hot pink functions
+- Cyan classes/types, orange operators, cool blue-gray comments
+- Brand-purple selection at 40% opacity keeps highlighted code legible
+
 ## Features
 
 - Dedicated C/C++ syntax scopes (preprocessor, macros, structs, pointers, sizeof)

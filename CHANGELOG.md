@@ -5,6 +5,12 @@ All notable changes to the CoMPhy Color Theme Collection will be documented in t
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.1.0] - 2026-08-09
+
+### Added
+
+- **New theme "CoMPhy Gruvbox Plum"**: a third flagship variant derived from Pop, recoloured around the CoMPhy brand purple `#68236D` (the design system's `--c-brand-purple`). `#111111` editor background with `#161616` side surfaces, `#FCFCFC` foreground, brand-purple selection, focus ring, tabs, buttons and badges. Token accents shift toward Dracula hues: yellow keywords `#f1fa8c`, green strings `#50fa7b`, pink functions `#ff79c6`, cyan classes `#8be9fd`, orange operators `#ffb86c`, cool comments `#7887ab`.
+
 ## [4.0.0] - 2026-02-15
 
 ### Added
