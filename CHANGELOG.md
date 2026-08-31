@@ -5,6 +5,17 @@ All notable changes to the CoMPhy Color Theme Collection will be documented in t
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.2.0] - 2026-08-31
+
+### Changed
+
+- **Status bar prominent items are now neutral grey.** `statusBarItem.prominentBackground` was the bright orange `#fe8019`, so ambient indicators such as "Screen Reader Optimized" shouted louder than the remote and debugging states beside them. It is now `#504945`, the gruvbox grey already used for `statusBarItem.activeBackground`, with `#ebdbb2` text and a `#665c54` hover. Legibility is unchanged (6.43:1, against 6.49:1 before).
+- The green remote indicator `#8ec07c` and the orange `statusBar.debuggingBackground` are deliberately untouched; those two should stay loud.
+
+### Fixed
+
+- Repository, issues and homepage URLs now point at `comphy-lab` rather than the pre-move `VatsalSy` owner.
+
 ## [4.1.0] - 2026-08-09
 
 ### Added

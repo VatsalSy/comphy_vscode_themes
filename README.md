@@ -1,8 +1,8 @@
 # CoMPhy Color Theme Collection
 
-[![License](https://img.shields.io/github/license/VatsalSy/comphy-vscode-theme)](LICENSE)
-[![Download VSIX](https://img.shields.io/badge/download%20VSIX-raw-blue)](https://raw.githubusercontent.com/VatsalSy/comphy-vscode-theme/main/comphy-theme.vsix)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/VatsalSy/comphy-vscode-theme/publish.yml?label=publish)](https://github.com/VatsalSy/comphy-vscode-theme/actions)<br>
+[![License](https://img.shields.io/github/license/comphy-lab/comphy-vscode-theme)](LICENSE)
+[![Download VSIX](https://img.shields.io/badge/download%20VSIX-raw-blue)](https://raw.githubusercontent.com/comphy-lab/comphy-vscode-theme/main/comphy-theme.vsix)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/comphy-lab/comphy-vscode-theme/publish.yml?label=publish)](https://github.com/comphy-lab/comphy-vscode-theme/actions)<br>
 [![VS Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/vatsalsy.comphy-theme?label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=VatsalSy.comphy-theme)
 [![VS Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/vatsalsy.comphy-theme?label=rating)](https://marketplace.visualstudio.com/items?itemName=VatsalSy.comphy-theme)<br>
 [![Open VSX Downloads](https://img.shields.io/open-vsx/dt/vatsalsy/comphy-theme?label=Open%20VSX)](https://open-vsx.org/extension/vatsalsy/comphy-theme)<br>
@@ -60,7 +60,7 @@ Near-black (`#111111`) background with the CoMPhy brand purple `#68236D` as the 
 
 ### From Source (VSIX)
 
-1. Clone the repository: `git clone https://github.com/VatsalSy/comphy-vscode-theme.git`
+1. Clone the repository: `git clone https://github.com/comphy-lab/comphy-vscode-theme.git`
 2. Build the VSIX package: `./scripts/build.sh --package`
 3. Open VSCode
 4. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
@@ -79,7 +79,7 @@ Near-black (`#111111`) background with the CoMPhy brand purple `#68236D` as the 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/VatsalSy/comphy-vscode-theme.git
+   git clone https://github.com/comphy-lab/comphy-vscode-theme.git
    cd comphy-vscode-theme
    ```
 

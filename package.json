@@ -3,7 +3,7 @@
   "publisher": "vatsalsy",
   "displayName": "CoMPhy Color Theme Collection",
   "description": "A collection of high-contrast themes based on Gruvbox with clear foregrounds, optimized for computational physics workflows",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "engines": {
     "vscode": "^1.50.0"
   },
@@ -48,16 +48,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/VatsalSy/comphy-vscode-theme"
+    "url": "https://github.com/comphy-lab/comphy-vscode-theme"
   },
   "bugs": {
-    "url": "https://github.com/VatsalSy/comphy-vscode-theme/issues"
+    "url": "https://github.com/comphy-lab/comphy-vscode-theme/issues"
   },
   "author": {
     "name": "Vatsal"
   },
   "license": "MIT",
-  "homepage": "https://github.com/VatsalSy/comphy-vscode-theme#readme",
+  "homepage": "https://github.com/comphy-lab/comphy-vscode-theme#readme",
   "scripts": {
     "build": "node scripts/build-themes.js",
     "prebuild": "echo 'Building theme variants from base configuration...'",
