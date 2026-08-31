@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Validate themes
+        run: npm test
+
+      - name: Contrast report
+        run: node test/test-contrast.js
+
+      # publish.yml packages whatever themes/*.json is committed and never runs
+      # the generator, so a theme-base edit without a rebuild would ship stale
+      # colours to both marketplaces.
+      - name: Verify themes/ matches theme-base/
+        run: |
+          npm run build
+          if ! git diff --quiet -- themes/; then
+            echo "::error::themes/ is stale. Run 'npm run build' and commit the result."
+            git --no-pager diff --stat -- themes/
+            exit 1
+          fi
+          echo "themes/ matches theme-base/"
